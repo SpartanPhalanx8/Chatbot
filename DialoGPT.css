@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #aabbe9, #4a6fe7);
+    color: #002244;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #002244;
+    color: white;
+    padding: 1rem 0;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+/* Chat Section */
+.chat-section {
+    width: 50%;
+    background-color: white;
+    border: 2px solid #00aaff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+#chat-display {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #cce7ff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#user-input {
+    width: 70%;
+    padding: 0.5rem;
+    border: 1px solid #cce7ff;
+    border-radius: 4px;
+}
+
+#send-button {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#send-button:hover {
+    background-color: #0088cc;
+}
+
+/* Sidebar with Neural Net Image */
+aside {
+    width: 40%;
+    text-align: center;
+}
+
+.neural-net {
+    width: 100%;
+    border: 2px solid #00aaff;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #002244;
+    color: white;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #chat-display {
+        height: 200px;
+    }
+    #user-input {
+        width: 60%;
+    }
+}
