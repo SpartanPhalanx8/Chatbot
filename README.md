@@ -35,3 +35,23 @@ Welcome to my AI Chatbot GitHub repository! This project is utilising the DialoG
 - Install required libraries:  
   ```bash
   pip install -r requirements.txt
+
+  ---
+
+  🚀 Usage
+Run the chatbot locally:
+python chatbot.py
+
+
+Customize the responses and logic in the chatbot.py file to suit your needs.
+
+---
+
+🤝 Contributing
+Contributions are welcome!
+Fork the repository, make changes, and submit a pull request.
+
+---
+
+📜 License
+This project is licensed under the MIT License. See LICENSE for details.
