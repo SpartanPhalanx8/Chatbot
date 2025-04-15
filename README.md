@@ -19,7 +19,7 @@ Welcome to my AI Chatbot GitHub repository! This project is utilising the DialoG
 </p>
 
 - 🌐 **Natural language understanding** and response generation  
-- 🎭 **Customizable personality** and conversation flow  
+- 🎭 **Customisable personality** and conversation flow  
 - 🚀 **Easy-to-deploy framework** for various platforms  
 - 🔧 **Extendable for specific use cases** (customer support, FAQ bots, etc.)
 
